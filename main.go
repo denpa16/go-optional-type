@@ -24,13 +24,12 @@ type Example struct {
 func main() {
 	jsonData := []byte(
 		`{
-			"field":"first",
-			"int_field":10,
+			"field":null,
+			"int_field":100,
 			"int64_field":20,
 			"string_field":"hello",
 			"bool_field":true,
-			"enum_field":"first",
-			"float64_field":3.14159265359
+			"enum_field":"first"
 		}`,
 	)
 	example := Example{}
